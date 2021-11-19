@@ -41,7 +41,7 @@ def escreverPlacar(contador):
 def dead():
     pygame.mixer.Sound.play(explosaoSound)
     pygame.mixer.music.stop()
-    escreverTela("Você Morreu!")
+    escreverTela("You Died!")
 def game():
     pygame.mixer.music.load("assets/ironsound.mp3")
     pygame.mixer.music.set_volume(0.2)
